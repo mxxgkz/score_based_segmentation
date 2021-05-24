@@ -9,6 +9,9 @@ core.*
 *.pyc*
 !*.py
 
+Data/*
+Experiments/*
+
 # vscode settings
 .vscode/settings.json
 
