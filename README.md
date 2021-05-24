@@ -19,9 +19,11 @@ In an unsupervised manner, diagnose multiphase nonstationary behavior in microgr
 
 To train the model(s) and plot results:
 
-| Data set name         | Commend  | Results |
-| ------------------ |---------------- | -------------- |
-| Silica particles in PMMA with octyl functional modification   |     python -uB single_sim_call.py --model_file_folder='${RES_FOLDER_PATH}${IDX}_sim_reg_no_cv_non_causal_retro/' --nnet=0 --alarm_level=99.0 --single_exp_plot=3131 --model_idx=5 --reg_model='lin' --wind_hei=5 --wind_wid=5 --spatial_ewma_sigma=30 --spatial_ewma_wind_len=30 --nois_sigma=0.1 --intcp=0 --z_scale=0 --cv_flag=0 --max_steps=50000 --stopping_lag=1000 --activation='sigmoid' --gen_wind_hei=4 --gen_wind_wid=4 --materials_model="non_causal" --training_rounds=1 --n_comp=2 --real_img_path='Data/texture/Octyl_images/003_cropped.tif'         |      ![](Experiments/Octyl_examples/figures/0524203001_sim_reg_no_cv_non_causal_retro/3D_score_clustering_dr_cl_plots_3_sim_real_reg_2d_score_retro_1e-08_loc_info.png)       |
+| Data set name         | Commend  |
+| :------------------ | :---------------- |
+| Silica particles in PMMA with octyl functional modification   |     python -uB single_sim_call.py --model_file_folder='${RES_FOLDER_PATH}${IDX}_sim_reg_no_cv_non_causal_retro/' --nnet=0 --alarm_level=99.0 --single_exp_plot=3131 --model_idx=5 --reg_model='lin' --wind_hei=5 --wind_wid=5 --spatial_ewma_sigma=30 --spatial_ewma_wind_len=30 --nois_sigma=0.1 --intcp=0 --z_scale=0 --cv_flag=0 --max_steps=50000 --stopping_lag=1000 --activation='sigmoid' --gen_wind_hei=4 --gen_wind_wid=4 --materials_model="non_causal" --training_rounds=1 --n_comp=2 --real_img_path='Data/texture/Octyl_images/003_cropped.tif'         |
+||![](Experiments/Octyl_examples/figures/0524203001_sim_reg_no_cv_non_causal_retro/3D_score_clustering_dr_cl_plots_3_sim_real_reg_2d_score_retro_1e-08_loc_info.png)|
+
 
 ```train
 python train.py --input-data <path_to_data> --alpha 10 --beta 20
