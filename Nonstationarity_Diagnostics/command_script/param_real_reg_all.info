@@ -1,5 +1,37 @@
 # Octyl_images examples
+## Needs to make WMA wind 30, 10 is too small. 4 cores 30 GB.
+## Go to folder /projects/p30309/neurips2021/Nonstationarity_Diagnostics and run the command script file.
 0524203001 200 5 5 30 30 0 0 0 2 3 '' '' '' '' 'Data/texture/Octyl_images/003_cropped.tif' 0 0 0 0
 0524303001 200 5 5 30 30 0 0 0 3 3 '' '' '' '' 'Data/texture/Octyl_images/003_cropped.tif' 0 0 0 0
 0524403001 200 5 5 30 30 0 0 0 4 3 '' '' '' '' 'Data/texture/Octyl_images/003_cropped.tif' 0 0 0 0
+0524203003 200 5 5 10 10 0 0 0 2 3 '' '' '' '' 'Data/texture/Octyl_images/003_cropped.tif' 0 0 0 0
+0524303003 200 5 5 10 10 0 0 0 3 3 '' '' '' '' 'Data/texture/Octyl_images/003_cropped.tif' 0 0 0 0
+0524403003 200 5 5 10 10 0 0 0 4 3 '' '' '' '' 'Data/texture/Octyl_images/003_cropped.tif' 0 0 0 0
+--penal_param=0.01 --learning_rate=1e-05 --stopping_lag=1000 --training_batch_size=100
+## Cross-validation
+0526203001 200 5 5 30 30 0 0 0 2 3 '' '' '' '' 'Data/texture/Octyl_images/003_cropped.tif' 0 0 0 0
+
+
+# Duel_phase examples
+0526204001 200 5 5 30 30 0 0 0 2 3 '' '' '' '' 'Data/texture/TwoPhase_images/gr1.jpg' 0 0 0 0
+0526204002 200 5 5 20 20 0 0 0 2 3 '' '' '' '' 'Data/texture/TwoPhase_images/gr1.jpg' 0 0 0 0
+0526204003 200 5 5 10 10 0 0 0 2 3 '' '' '' '' 'Data/texture/TwoPhase_images/gr1.jpg' 0 0 0 0
+0526204004 200 5 5 10 30 0 0 0 2 3 '' '' '' '' 'Data/texture/TwoPhase_images/gr1.jpg' 0 0 0 0
+0526204005 200 5 5 5 30 0 0 0 2 3 '' '' '' '' 'Data/texture/TwoPhase_images/gr1.jpg' 0 0 0 0
+0526304001 200 5 5 30 30 0 0 0 3 3 '' '' '' '' 'Data/texture/TwoPhase_images/gr1.jpg' 0 0 0 0
+0526304002 200 5 5 20 20 0 0 0 3 3 '' '' '' '' 'Data/texture/TwoPhase_images/gr1.jpg' 0 0 0 0
+0526304003 200 5 5 10 10 0 0 0 3 3 '' '' '' '' 'Data/texture/TwoPhase_images/gr1.jpg' 0 0 0 0
+
+
+# Brodatz self-generated examples
+0512413001 200 5 5 30 30 0 0 0 4 3 '' '' '' '' 'Data/texture/Brodatz/42_x.png' 0 0 0 0
+0512413002 200 5 5 20 20 0 0 0 4 3 '' '' '' '' 'Data/texture/Brodatz/42_x.png' 0 0 0 0
+0512413003 200 5 5 10 10 0 0 0 4 3 '' '' '' '' 'Data/texture/Brodatz/42_x.png' 0 0 0 0
+
+0512313001 200 5 5 30 30 0 0 0 3 3 '' '' '' '' 'Data/texture/Brodatz/42_x.png' 0 0 0 0
+0512313002 200 5 5 20 20 0 0 0 3 3 '' '' '' '' 'Data/texture/Brodatz/42_x.png' 0 0 0 0
+0512313003 200 5 5 10 10 0 0 0 3 3 '' '' '' '' 'Data/texture/Brodatz/42_x.png' 0 0 0 0
+0512513001 200 5 5 30 30 0 0 0 5 3 '' '' '' '' 'Data/texture/Brodatz/42_x.png' 0 0 0 0
+0512513002 200 5 5 20 20 0 0 0 5 3 '' '' '' '' 'Data/texture/Brodatz/42_x.png' 0 0 0 0
+0512513003 200 5 5 10 10 0 0 0 5 3 '' '' '' '' 'Data/texture/Brodatz/42_x.png' 0 0 0 0
 

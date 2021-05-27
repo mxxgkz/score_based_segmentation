@@ -2,13 +2,14 @@
 while IFS=$' ' read IDX IMGLEN WINDH WINDW EWMASIG EWMAWIND ZSCALE NOISSIG NOISSIZE NCOMP TRRD IMG_F IMG_TR IMG_VAL IMG_PI IMG_PII PII_POR LSSIM LSBLK_S LSBLK_IDX
 do
 STD_OUTPUT_FILE="../../std_output/${IDX}_real_reg_2d_non_causal_2.txt"
-RES_FOLDER_PATH="./Experiments/Octyl_examples/figures/"
+# RES_FOLDER_PATH="./Experiments/Octyl_examples/figures/"
+RES_FOLDER_PATH="./Experiments/Dual_phase_examples/figures/"
 
 JOB=`sbatch << EOJ
 #!/bin/bash
 #SBATCH -J ${IDX}
 #SBATCH -A p30309
-#SBATCH -p short
+#SBATCH -p normal
 #SBATCH -t 3:59:59
 #SBATCH -N 1
 #SBATCH -n 4
@@ -81,6 +82,10 @@ source activate py37
 
 # # Nnet model
 # python -uB single_sim_call.py --model_file_folder='${RES_FOLDER_PATH}${IDX}_sim_reg_nnet_no_cv_non_causal/' --nnet=1 --alarm_level=99.0 --single_exp_plot=31313131 --model_idx=5 --reg_model='nnet_lin' --wind_hei=${WINDH} --wind_wid=${WINDW} --spatial_ewma_sigma=${EWMASIG} --spatial_ewma_wind_len=${EWMAWIND} --cv_flag=0 --max_steps=50000 --stopping_lag=1000 --activation='sigmoid' --img_hei=${IMGLEN} --img_wid=${IMGLEN} --gen_wind_hei=2 --gen_wind_wid=2 --materials_model="non_causal" --training_rounds=3 --n_comp=${NCOMP} --ar_model_coef_folder_path=${IMG_F} --train_PI_coeff=${IMG_TR} --PII_coeff=${IMG_PII} --num_train_imgs=1 --num_val_imgs=1 --num_PI_imgs=12 --num_PII_imgs=4 --PII_portion=${PII_POR} --noise_level_lambda=-1
+
+# For autoregressive or real image 2d neural-net regression. Cross-validation. Retrospective analysis.
+
+# python -uB single_sim_call.py --model_file_folder='${RES_FOLDER_PATH}${IDX}_sim_reg_nnet_cv_non_causal_retro/' --nnet=1 --alarm_level=99.0 --single_exp_plot=3131 --model_idx=5 --reg_model='nnet_lin' --wind_hei=${WINDH} --wind_wid=${WINDW} --spatial_ewma_sigma=${EWMASIG} --spatial_ewma_wind_len=${EWMAWIND} --nois_sigma=0.1 --intcp=0 --z_scale=${ZSCALE} --cv_flag=1 --cv_n_jobs=30 --cv_N_rep=3 --cv_K_fold=5 --cv_rand_search=60 --cv_pre_dispatch='1.2*n_jobs' --cv_task_param_ls='penal_param-training_batch_size-learning_rate' --max_steps=50000 --stopping_lag=1000 --activation='sigmoid' --img_hei=${IMGLEN} --img_wid=${IMGLEN} --gen_wind_hei=4 --gen_wind_wid=4 --materials_model="non_causal" --nois_profile_sigma=${NOISSIG} --nois_size=${NOISSIZE} --nois_scale=1 --training_rounds=${TRRD} --n_comp=${NCOMP} --real_img_path='${IMG_PII}'
 
 # For autoregressive or real image 2d neural-net regression. No cross-validation. Retrospective analysis.
 
