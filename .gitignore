@@ -1,5 +1,9 @@
 *.pyc
+*.log
+core.*
 *.csv
+*.h5
+*.pkl
 *.ipynb_checkpoints
 *.out
 ~*
@@ -8,9 +12,13 @@ core.*
 *.json
 *.pyc*
 !*.py
+*.npy
+*.ckpt
+__pycache__
 
 Data/*
 Experiments/*
+logdir/*
 
 # vscode settings
 .vscode/settings.json

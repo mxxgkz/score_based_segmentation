@@ -1,0 +1,10 @@
+# use pre-trained weights
+kylberg_pre_trained account AlexNet 0 0 "" "/projects/p30309/interviews/AlexNet/bvlc_alexnet.npy" 22 3 10 _kylberg_pre_trained "" "" "" 0 "" 0 0 0.0005
+# random initialization
+kylberg_rand_init account AlexNet 0 0 "" "" 22 3 10 _kylberg_rand_init "" "" "" 0 "" 0 0 0.0005
+
+kylberg_pre_trained_pp1 account AlexNet 0 0 "" "/projects/p30309/interviews/AlexNet/bvlc_alexnet.npy" 11 167 40 _kylberg_pre_trained_pp1 "" "" "" 0 "" 0 0 0.0005
+kylberg_rand_init_pp1 account AlexNet 0 0 "" "" 11 167 40 _kylberg_rand_init_pp1 "" "" "" 0 "" 0 0 0.0005
+
+# 15.5hrs
+kylberg_pre_trained account AlexNet 0 0 "" "/projects/p30309/neurips2021/Classification/bvlc_alexnet.npy" 7 47 10 _kylberg_pre_trained "" "" "" 0 "" 0 0 0.0005

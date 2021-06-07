@@ -92,7 +92,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--data_file_folder",
         type=str,
-        default="../kungang/credit_data_processed/",
+        default="",
         help="The path of folder to store input data file.")
     parser.add_argument(
         "--Xy_fname",
@@ -511,20 +511,11 @@ if __name__ == "__main__":
         "--real_img_path",
         type=str,
         # default='/home/ghhgkz/scratch/Data/texture/Brodatz/Nat-5c.pgm',
-        # default='/home/ghhgkz/scratch/Data/texture/Prof_Brinson/003_cropped.csv',
-        # default='/home/ghhgkz/scratch/Data/texture/TwoPhase/gr1.jpg',
-        # default='/home/ghhgkz/scratch/Data/texture/Prof_Brinson/data2/100_RPM_100_KJ_KG_300_RPM_4000_KJ_KG.csv',
-        # default='/home/ghhgkz/scratch/Data/texture/Prof_Brinson/data2/300_RPM_4000_KJ_KG_100_RPM_100_KJ_KG.csv',
-        default='/home/ghhgkz/scratch/Data/texture/Prof_Brinson/data4/100_RPM_100_KJ_KG_17_100_RPM_100_KJ_KG_19.csv',
-        # default='/home/ghhgkz/scratch/Data/texture/Prof_Brinson/data4/100_RPM_100_KJ_KG_19_100_RPM_100_KJ_KG_17.csv',
-        # default='/home/ghhgkz/scratch/Data/texture/Prof_Brinson/data2/100_RPM_100_KJ_KG_1.csv',
-        # default='/home/ghhgkz/scratch/Data/texture/Prof_Brinson/data1/300_RPM_4000_KJ_KG_1.csv',
         help="The path of real image to be processed.")
 
     parser.add_argument(
         "--real_img_folder",
         type=str,
-        # default='/home/ghhgkz/scratch/Data/texture/Prof_Brinson/data1/',
         default='/projects/p30309/CD/Data/texture/GP/prospective/data1/',
         help="The path of real images to be processed for PI_PII analysis.")
 
@@ -594,7 +585,7 @@ if __name__ == "__main__":
     #     help="The path of real images to be processed for PI_PII analysis (PII).")
 
     # =======================
-    # One PIPII analysis dataset, Prof Brinson's group TEM image
+    # One PIPII analysis dataset
 
     # parser.add_argument(
     #     "--train_img",
@@ -621,7 +612,7 @@ if __name__ == "__main__":
     #     help="The path of real images to be processed for PI_PII analysis (PII).")
 
     # =======================
-    # Another PIPII analysis dataset, Prof Brinson's group TEM image
+    # Another PIPII analysis dataset
 
     # parser.add_argument(
     #     "--train_img",
