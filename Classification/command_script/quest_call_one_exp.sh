@@ -45,9 +45,7 @@ echo "JobID = ${JOB} for indices ${IDX} and parameters ${EPOCH}, ${POSTFIX}, ${S
 
 sleep 0.5
 
-# done < ./command_script/param_regression_exp.info
 done < ./command_script/param_classification_exp.info
-# done < ./command_script/param_segmentation_exp.info
 exit
 
 # make this file executable and then run from the command line

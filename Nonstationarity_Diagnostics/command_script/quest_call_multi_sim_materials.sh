@@ -139,8 +139,6 @@ echo "JobID = ${JOB} for indices ${IDX} and parameters ${WINDH}, ${WINDW}, ${EWM
 sleep 1
 
 done < ./command_script/param_real_reg.info
-# done < ./command_script/param_ar_cla_2d.info
-# done < ./command_script/param_ar_lin_2d.info
 exit
 
 # make this file executable and then run from the command line
