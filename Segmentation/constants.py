@@ -10,8 +10,8 @@ RND_SEED = 129 # 123
 ROOT_DIR = '/projects/p30309/neurips2021' # quest
 CODE_ROOT_DIR = ROOT_DIR
 # PLT_ROOT_DIR = '/projects/p30309/neurips2021/Experiments/UHCSA_seg_examples'
-PLT_ROOT_DIR = '/projects/p30309/neurips2021/Experiments/Dendrites_seg_examples'
-# PLT_ROOT_DIR = '/projects/p30309/neurips2021/Experiments/Brodatz_seg_examples'
+# PLT_ROOT_DIR = '/projects/p30309/neurips2021/Experiments/Dendrites_seg_examples'
+PLT_ROOT_DIR = '/projects/p30309/neurips2021/Experiments/Brodatz_seg_examples'
 
 DTYPE_FLOAT_STR = 'float32'
 DTYPE_FLOAT = tf.float32

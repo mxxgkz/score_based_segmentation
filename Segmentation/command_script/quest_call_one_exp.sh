@@ -43,9 +43,9 @@ source activate py37
 
 # python -uB ./finetune_rand_init_full_training_incremental_stepwise.py --model_name=${MOD} --weights_name=${WEINAME} --num_epochs=${LIDXVAL} --postfix=${POSTFIX} --start_rd=${START} --start_model_path=${START_P} --db_fd_name=${DBFN} --new_fd_name=${NEWFN} --gen_fd_prefix=${IDX} --n_threads=${CORE} --backbone=${BBONE} --pwei_flag=${PWEI} --normp=${NORMP}
 
-# python -uB ./finetune_homo_texture.py --model_name=${MOD} --weights_name=${WEINAME} --num_epochs=${LIDXVAL} --postfix=${POSTFIX} --start_rd=${START} --start_model_path=${START_P} --db_fd_name=${DBFN} --new_fd_name=${NEWFN} --gen_fd_prefix=${IDX} --n_threads=${CORE} --backbone=${BBONE} --pwei_flag=${PWEI} --normp=${NORMP}
+python -uB ./finetune_homo_texture.py --model_name=${MOD} --weights_name=${WEINAME} --num_epochs=${LIDXVAL} --postfix=${POSTFIX} --start_rd=${START} --start_model_path=${START_P} --db_fd_name=${DBFN} --new_fd_name=${NEWFN} --gen_fd_prefix=${IDX} --n_threads=${CORE} --backbone=${BBONE} --pwei_flag=${PWEI} --normp=${NORMP}
 
-python -uB ./finetune_dendrites.py --model_name=${MOD} --num_epochs=${LIDXVAL} --postfix=${POSTFIX} --start_rd=${START} --start_model_path=${START_P} --gen_fd_prefix=${IDX} --n_threads=${CORE} --backbone=${BBONE} --dendrites_data=${GENFD}
+# python -uB ./finetune_dendrites.py --model_name=${MOD} --num_epochs=${LIDXVAL} --postfix=${POSTFIX} --start_rd=${START} --start_model_path=${START_P} --gen_fd_prefix=${IDX} --n_threads=${CORE} --backbone=${BBONE} --dendrites_data=${GENFD}
 
 # python -uB ./finetune_cv_deeplab3plus_seg.py --model_name=${MOD} --last_idx_valids=${LIDXVAL} --postfix=${POSTFIX} --start_rd=${START} --start_model_path=${START_P} --gen_fd_prefix=${IDX} --n_threads=${CORE} --backbone=${BBONE} --sample_wei_flag=${SWEI} --norm_data=${NORMD} --weight_decay=${WDEC} --modified_pre_trained_path=${WEINAME} --start_fold_idx=${SFIDX} --end_fold_idx=${EFIDX} --accu_step=${ACSTEP} --init_valid_step=${INITVAL_STEP} --rand_seed=${RANDS}
 
