@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /~gustaf/texture/data/with-rotations-zip</title>
+ </head>
+ <body>
+<h1>Index of /~gustaf/texture/data/with-rotations-zip</h1>
+<table><tr><th><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr><tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[DIR]"></td><td><a href="/~gustaf/texture/data/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="blanket1-with-rotations.zip">blanket1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:54  </td><td align="right">460M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="blanket2-with-rotations.zip">blanket2-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:41  </td><td align="right">259M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="canvas1-with-rotations.zip">canvas1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:32  </td><td align="right">467M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="ceiling1-with-rotations.zip">ceiling1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:50  </td><td align="right">422M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="ceiling2-with-rotations.zip">ceiling2-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:39  </td><td align="right">330M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="cushion1-with-rotations.zip">cushion1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:29  </td><td align="right">353M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="floor1-with-rotations.zip">floor1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:52  </td><td align="right">291M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="floor2-with-rotations.zip">floor2-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:41  </td><td align="right">519M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="grass1-with-rotations.zip">grass1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:30  </td><td align="right">387M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="lentils1-with-rotations.zip">lentils1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:49  </td><td align="right">350M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="linseeds1-with-rotations.zip">linseeds1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:39  </td><td align="right">339M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="oatmeal1-with-rotations.zip">oatmeal1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:30  </td><td align="right">335M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="pearlsugar1-with-rotations.zip">pearlsugar1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:40  </td><td align="right">349M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="rice1-with-rotations.zip">rice1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:30  </td><td align="right">364M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="rice2-with-rotations.zip">rice2-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:40  </td><td align="right">341M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="rug1-with-rotations.zip">rug1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:30  </td><td align="right">362M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="sand1-with-rotations.zip">sand1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:40  </td><td align="right">381M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="scarf1-with-rotations.zip">scarf1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:30  </td><td align="right">330M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="scarf2-with-rotations.zip">scarf2-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:40  </td><td align="right">272M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="screen1-with-rotations.zip">screen1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:30  </td><td align="right">393M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="seat1-with-rotations.zip">seat1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:52  </td><td align="right">479M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="seat2-with-rotations.zip">seat2-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:52  </td><td align="right">474M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="sesameseeds1-with-rotations.zip">sesameseeds1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:50  </td><td align="right">354M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="stone1-with-rotations.zip">stone1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:51  </td><td align="right">376M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="stone2-with-rotations.zip">stone2-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:56  </td><td align="right">369M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="stone3-with-rotations.zip">stone3-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:57  </td><td align="right">404M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="stoneslab1-with-rotations.zip">stoneslab1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:58  </td><td align="right">436M</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="wall1-with-rotations.zip">wall1-with-rotations.zip</a></td><td align="right">26-Mar-2012 19:58  </td><td align="right">429M</td></tr>
+<tr><th colspan="5"><hr></th></tr>
+</table>
+<address>Apache/2.2.3 (Red Hat) Server at www.cb.uu.se Port 80</address>
+</body></html>
