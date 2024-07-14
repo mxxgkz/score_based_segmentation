@@ -68,12 +68,12 @@ class SepConvBNBlock(Layer):
         if self.strides == 1:
             depth_padding = 'SAME'
         else:
-            kernel_size_eff = kernel_size + (kernel_size-1)*(rate-1)
-            pad_tot = kernel_size_eff - 1
+            kernel_size_eff = kernel_size + (kernel_size-1)*(rate-1) # Refer to the paper [A guide to convolution arithmetic for deep learning](https://arxiv.org/pdf/1603.07285.pdf)
+            pad_tot = kernel_size_eff - 1 # When we choose odd-number kernel_size, this will be even-number
             pad_beg = pad_tot // 2
             pad_end = pad_tot - pad_beg
             depth_padding = 'VALID' # No padding
-            self.zeropad = ZeroPadding2D(padding=(pad_beg, pad_end), name='zero_padding')
+            self.zeropad = ZeroPadding2D(padding=((pad_beg, pad_end), (pad_beg, pad_end)), name='zero_padding')
 
         if not self.depth_acti:
             self.acti = Activation(activation='relu', name='acti')
@@ -167,11 +167,11 @@ class Conv2DSame(Layer):
             self.conv = Conv2D(filters=filters, kernel_size=kernel_size, strides=strides,
                                padding='SAME', use_bias=False, dilation_rate=rate)
         else:
-            kernel_size_eff = kernel_size + (kernel_size-1)*(rate-1)
-            pad_tot = kernel_size_eff - 1
+            kernel_size_eff = kernel_size + (kernel_size-1)*(rate-1) # Refer to the paper [A guide to convolution arithmetic for deep learning](https://arxiv.org/pdf/1603.07285.pdf)
+            pad_tot = kernel_size_eff - 1 # When we choose odd-number kernel_size, this will be even-number
             pad_beg = pad_tot // 2
             pad_end = pad_tot - pad_beg
-            self.zeropad = ZeroPadding2D(padding=(pad_beg, pad_end))
+            self.zeropad = ZeroPadding2D(padding=((pad_beg, pad_end), (pad_beg, pad_end)))
             self.conv = Conv2D(filters=filters, kernel_size=kernel_size, strides=strides,
                                padding='VALID', use_bias=False, dilation_rate=rate)
 
@@ -438,7 +438,7 @@ class DeepLab3PlusModel(Model):
         self.deco_sepconv_2 = SepConvBNBlock(filters=256, depth_acti=True, epsilon=1e-5, name='deco_sepconv_1')
 
         # =======Get logit=======
-        self.last_conv = Conv2D(self.num_classes, kernel_size=1, padding='SAME', name='last_conv')
+        self.last_conv = Conv2D(filters=self.num_classes, kernel_size=1, padding='SAME', name='last_conv')
         self.last_up = Lambda(lambda x: tf.compat.v1.image.resize_bilinear(
                               x, size=(input_shape[1], input_shape[2]), align_corners=True), name='last_up')
         self.last_acti = Activation(activation='softmax', name='last_acti')
@@ -689,7 +689,7 @@ class DeepLab3PlusModifiedModel(Model):
         self.deco_sepconv_2 = SepConvBNBlock(filters=64, depth_acti=True, epsilon=1e-5, name='deco_sepconv_1')
 
         # =======Get logit=======
-        self.last_conv = Conv2D(self.num_classes, kernel_size=1, padding='SAME', name='last_conv')
+        self.last_conv = Conv2D(filters=self.num_classes, kernel_size=1, padding='SAME', name='last_conv')
         self.last_up = Lambda(lambda xx: tf.compat.v1.image.resize_bilinear(
                               xx, size=(input_shape[1], input_shape[2]), align_corners=True), name='last_up')
         self.last_acti = Activation(activation='softmax', name='last_acti')

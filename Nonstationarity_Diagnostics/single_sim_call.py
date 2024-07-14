@@ -14,7 +14,7 @@ from constants import DATA_ROOT_DIR, RES_ROOT_DIR, CODE_ROOT_DIR
 from control_chart.utils import *
 from control_chart.hotelling import *
 
-from simulation_real_img_reg_retro import *
+from simulation_real_img_reg_retro import simulation_real_img_reg_retro
 
 
 # Without putting this, the loss_val_ls[-1] is a tf.Tensor and cannot be evaluated at that place.
